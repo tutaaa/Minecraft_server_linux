@@ -1,0 +1,48 @@
+langversion: 2.13.48
+bloodmoon: 你无法在血月之夜睡觉
+boolean: 参数必须为true或者false。例如
+cancel: 点击此处取消
+canceledsleep: <player>取消了睡觉
+cancelhelp: 拒绝睡觉跳过晚上
+cancelunrestricted: 取消被禁用
+checkset: 自动更新被设置为
+clickcancel: 点击取消睡眠
+curvers: 您使用的已经是最新版本！
+dayskipblackbed: 必须使用黑色的床才能跳过白天
+dayskipcancel: 点击此处取消
+dayskipcanceled: <player>取消了跳过白天
+dayskipclickcancel: 强制取消 DaySkip.
+dayskipmsg: <player> 希望跳过这一天...
+dayskipmsgcommand: <player> 希望跳过这一天... <command >
+dayskipsettime: 将时间设定为晚上.
+debugtrue: 调试模式设置为boolean
+issleep: <player>正在睡觉
+mustbeday: 必须是白天才能使用
+mustbenight: 必须是晚上才能使用
+newvers:
+  message: <MyPlugin> 有一个新版本可用！
+  old_vers: 你的版本
+  new_vers: 最新版本
+  please_update: 请更新到最新版本。
+  download: 下载
+  donate: 捐
+nightorstorm: 必须是晚上或者雷暴才能使用
+nocancel: 您无法取消此睡眠或者没有要取消的睡眠
+nocheck: 不会检查更新！
+noperm: 你没有权限使用
+notop: 你不是OP，或 config.Yml 中的 auto-update-check 设置为 false
+reloaded: 已重新加载
+respawnpointmsg: 已设置重生点
+setdownfall: 停止下雨
+setthunder: 停止雷暴
+settime: 设置为早上
+sleepcommand: <player>正在睡觉<command>
+sleephelp: 需要服务器管理员许可
+sleeplimit: 还在冷却中，请等待<length>秒
+spscheck: 设置自动检查更新为true或者false
+spshelp: 显示SinglePlayerSleep的帮助信息
+spsreload: 重新加载配置文件
+spsupdate: 检查更新
+toggledebug: 临时切换调试模式
+touse: 睡在床上使用
+yescheck: 将会检查更新！

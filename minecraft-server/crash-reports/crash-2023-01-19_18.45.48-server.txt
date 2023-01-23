@@ -1,0 +1,100 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 1/19/23, 6:45 PM
+Description: Exception in server tick loop
+
+java.lang.UnsatisfiedLinkError: Can't load library: /usr/lib/jvm/java-17-openjdk-amd64/lib/libawt_xawt.so
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2393)
+	at java.base/java.lang.Runtime.load0(Runtime.java:755)
+	at java.base/java.lang.System.load(System.java:1953)
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:388)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:232)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:174)
+	at java.base/jdk.internal.loader.NativeLibraries.findFromPaths(NativeLibraries.java:315)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:285)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2398)
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818)
+	at java.base/java.lang.System.loadLibrary(System.java:1989)
+	at java.desktop/java.awt.Toolkit$2.run(Toolkit.java:1392)
+	at java.desktop/java.awt.Toolkit$2.run(Toolkit.java:1390)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at java.desktop/java.awt.Toolkit.loadLibraries(Toolkit.java:1389)
+	at java.desktop/java.awt.Toolkit.initStatic(Toolkit.java:1427)
+	at java.desktop/java.awt.Toolkit.<clinit>(Toolkit.java:1401)
+	at java.desktop/sun.awt.AppContext$2.run(AppContext.java:273)
+	at java.desktop/sun.awt.AppContext$2.run(AppContext.java:262)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at java.desktop/sun.awt.AppContext.initMainAppContext(AppContext.java:262)
+	at java.desktop/sun.awt.AppContext$3.run(AppContext.java:315)
+	at java.desktop/sun.awt.AppContext$3.run(AppContext.java:298)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at java.desktop/sun.awt.AppContext.getAppContext(AppContext.java:297)
+	at java.desktop/javax.imageio.spi.IIORegistry.getDefaultInstance(IIORegistry.java:129)
+	at java.desktop/javax.imageio.ImageIO.<clinit>(ImageIO.java:66)
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadServerIcon0(CraftServer.java:2296)
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.loadIcon(CraftServer.java:1060)
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.<init>(CraftServer.java:368)
+	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:160)
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:15)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:215)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Linux (amd64) version 5.15.0-58-generic
+	Java Version: 17.0.5, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 704489904 bytes (671 MiB) / 1073741824 bytes (1024 MiB) up to 3221225472 bytes (3072 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+	Identifier: Intel64 Family 6 Model 61 Stepping 4
+	Microarchitecture: Broadwell (Client)
+	Frequency (GHz): 2.20
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: HD Graphics 5500
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 256.00
+	Graphics card #0 deviceId: 0x1616
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: DDR3
+	Virtual memory max (MB): 3959.77
+	Virtual memory used (MB): 1966.20
+	Swap memory total (MB): 2048.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms1G -Xmx3G
+	CraftBukkit Information: 
+   Running: Paper version git-Paper-372 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) false
+   Plugins: {}
+   Warnings: DEFAULT
+   Reload Count: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException: Cannot read field "reloadCount" because "net.minecraft.server.MinecraftServer.getServer().server" is null
+	at org.bukkit.craftbukkit.v1_18_R2.CraftCrashReport.get(CraftCrashReport.java:31)
+	at org.bukkit.craftbukkit.v1_18_R2.CraftCrashReport.get(CraftCrashReport.java:17)
+	at net.minecraft.SystemReport.a(SystemReport.java:61)
+	at net.minecraft.CrashReport.<init>(CrashReport.java:36)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1311)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1252)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+	Server Running: true
+	Data Packs: vanilla, file/bukkit (incompatible)
+	World Generation: ERR
+	Is Modded: Definitely; Server brand changed to 'Paper'
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,318 @@
+[16:21:02] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:21:05] [Worker-Main-1/INFO]: Loaded 7 recipes
+[16:21:07] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[16:21:07] [Server thread/WARN]: ****************************
+[16:21:07] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[16:21:07] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[16:21:07] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[16:21:07] [Server thread/WARN]: ****************************
+[16:21:07] [Server thread/INFO]: Loading properties
+[16:21:07] [Server thread/INFO]: This server is running Paper version git-Paper-372 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: bed5cb2)
+[16:21:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:21:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:21:08] [Server thread/INFO]: Default game type: SURVIVAL
+[16:21:08] [Server thread/INFO]: Generating keypair
+[16:21:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:21:08] [Server thread/INFO]: Using epoll channel type
+[16:21:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:21:08] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:21:09] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:21:16] [Server thread/WARN]: Legacy plugin isSlimeChunk v1.0.1 does not specify an api-version.
+[16:21:16] [Server thread/WARN]: Legacy plugin SimpleSit v1.7 does not specify an api-version.
+[16:21:16] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v2.6.8-Release
+[16:21:16] [Server thread/INFO]: [MarriageMaster] PCGF-PluginLib not installed. Switching to standalone mode!
+[16:21:16] [Server thread/INFO]: [MarriageMaster] File "/IMessage.jar" extracted successfully!
+[16:21:16] [Server thread/INFO]: [UltimateTimber] Loading UltimateTimber v2.3.4
+[16:21:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[16:21:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@263b04a7]
+[16:21:17] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.4
+[16:21:17] [Server thread/INFO]: [PixelPrinter] Loading PixelPrinter v1.0.46
+[16:21:17] [Server thread/INFO]: [HealthBar] Loading HealthBar v1.8.1
+[16:21:17] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.7
+[16:21:17] [Server thread/INFO]: [isSlimeChunk] Loading isSlimeChunk v1.0.1
+[16:21:17] [Server thread/INFO]: [BlockLocker] Loading BlockLocker v1.11
+[16:21:17] [Server thread/INFO]: [SimpleSit] Loading SimpleSit v1.7
+[16:21:17] [Server thread/INFO]: [DivineDrop] Loading DivineDrop v2.9
+[16:21:17] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.48
+[16:21:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:21:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[16:21:17] [Server thread/ERROR]: Could not dispatch event: com.sk89q.worldedit.event.platform.PlatformsRegisteredEvent@655ddb20 to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:160) ~[worldedit-bukkit-7.2.10.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-372]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-372]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.UnsatisfiedLinkError: Can't load library: /usr/lib/jvm/java-17-openjdk-amd64/lib/libawt_xawt.so
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:2393) ~[?:?]
+	at java.lang.Runtime.load0(Runtime.java:755) ~[?:?]
+	at java.lang.System.load(System.java:1953) ~[?:?]
+	at jdk.internal.loader.NativeLibraries.load(Native Method) ~[?:?]
+	at jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:388) ~[?:?]
+	at jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:232) ~[?:?]
+	at jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:174) ~[?:?]
+	at jdk.internal.loader.NativeLibraries.findFromPaths(NativeLibraries.java:315) ~[?:?]
+	at jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:285) ~[?:?]
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:2398) ~[?:?]
+	at java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.lang.System.loadLibrary(System.java:1989) ~[?:?]
+	at java.awt.Toolkit$2.run(Toolkit.java:1392) ~[?:?]
+	at java.awt.Toolkit$2.run(Toolkit.java:1390) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at java.awt.Toolkit.loadLibraries(Toolkit.java:1389) ~[?:?]
+	at java.awt.Toolkit.initStatic(Toolkit.java:1427) ~[?:?]
+	at java.awt.Toolkit.<clinit>(Toolkit.java:1401) ~[?:?]
+	at sun.awt.AppContext$2.run(AppContext.java:273) ~[?:?]
+	at sun.awt.AppContext$2.run(AppContext.java:262) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at sun.awt.AppContext.initMainAppContext(AppContext.java:262) ~[?:?]
+	at sun.awt.AppContext$3.run(AppContext.java:315) ~[?:?]
+	at sun.awt.AppContext$3.run(AppContext.java:298) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at sun.awt.AppContext.getAppContext(AppContext.java:297) ~[?:?]
+	at javax.imageio.spi.IIORegistry.getDefaultInstance(IIORegistry.java:129) ~[?:?]
+	at javax.imageio.ImageIO.<clinit>(ImageIO.java:66) ~[?:?]
+	at com.sk89q.worldedit.util.asset.ImageHeightmapLoader.getAllowedExtensions(ImageHeightmapLoader.java:53) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.util.asset.AssetLoaders.registerAssetLoader(AssetLoaders.java:85) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.util.asset.AssetLoaders.init(AssetLoaders.java:75) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.extension.platform.Capability$2.initialize(Capability.java:55) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.choosePreferred(PlatformManager.java:193) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handlePlatformsRegistered(PlatformManager.java:319) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[worldedit-bukkit-7.2.10.jar:?]
+	... 12 more
+[16:21:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:21:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[16:21:18] [Server thread/WARN]: Failed to load the built-in block registry
+com.sk89q.worldedit.extension.platform.NoCapablePlatformException: No platform was found supporting WORLD_EDITING
+	at com.sk89q.worldedit.extension.platform.PlatformManager.queryCapability(PlatformManager.java:175) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.world.registry.BundledBlockData.loadFromResource(BundledBlockData.java:85) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.world.registry.BundledBlockData.<init>(BundledBlockData.java:69) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.world.registry.BundledBlockData.getInstance(BundledBlockData.java:148) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:406) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:198) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:177) ~[worldedit-bukkit-7.2.10.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-372]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-372]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[16:21:18] [Server thread/WARN]: Failed to load the built-in item registry
+com.sk89q.worldedit.extension.platform.NoCapablePlatformException: No platform was found supporting WORLD_EDITING
+	at com.sk89q.worldedit.extension.platform.PlatformManager.queryCapability(PlatformManager.java:175) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.world.registry.BundledItemData.loadFromResource(BundledItemData.java:85) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.world.registry.BundledItemData.<init>(BundledItemData.java:69) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.world.registry.BundledItemData.getInstance(BundledItemData.java:149) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:407) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:198) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:177) ~[worldedit-bukkit-7.2.10.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-372]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-372]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[16:21:18] [Server thread/WARN]: Failed to load the built-in legacy id registry
+com.sk89q.worldedit.extension.platform.NoCapablePlatformException: No platform was found supporting WORLD_EDITING
+	at com.sk89q.worldedit.extension.platform.PlatformManager.queryCapability(PlatformManager.java:175) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:92) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:70) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:191) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:408) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.setupPreWorldData(WorldEditPlugin.java:198) ~[worldedit-bukkit-7.2.10.jar:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:177) ~[worldedit-bukkit-7.2.10.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-372]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:289) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-372]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[16:21:18] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.11
+[16:21:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material mangrove_door, ignoring it
+[16:21:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material mangrove_fence_gate, ignoring it
+[16:21:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material mangrove_trapdoor, ignoring it
+[16:21:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:21:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:21:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:21:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:21:18] [Server thread/INFO]: Preparing level "world"
+[16:21:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:21:26] [Server thread/INFO]: Time elapsed: 766 ms
+[16:21:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:21:26] [Server thread/INFO]: Time elapsed: 281 ms
+[16:21:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:21:27] [Server thread/INFO]: Time elapsed: 391 ms
+[16:21:27] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v2.6.8-Release
+[16:21:27] [Server thread/INFO]: [MarriageMaster] Starting Marriage Master in standalone mode!
+[16:21:27] [Server thread/INFO]: [MarriageMaster] [32mConfig file successfully loaded.[0m
+[16:21:27] [Server thread/INFO]: [MarriageMaster] No compatible backpack plugin found.
+[16:21:27] [Server thread/INFO]: [MarriageMaster] [32mLanguage file successfully loaded. Language: English  Author: GeorgH93[0m
+[16:21:28] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Starting...
+[16:21:28] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Start completed.
+[16:21:28] [Thread-8/INFO]: [MarriageMaster] Loading marriages ...
+[16:21:28] [Thread-8/INFO]: [MarriageMaster] Marriages loaded
+[16:21:28] [Thread-8/INFO]: [MarriageMaster] Loading priests ...
+[16:21:28] [Thread-8/INFO]: [MarriageMaster] Priests loaded
+[16:21:28] [Thread-8/INFO]: [MarriageMaster] Loading players ...
+[16:21:29] [Thread-8/INFO]: [MarriageMaster] Players loaded
+[16:21:29] [Thread-8/INFO]: [MarriageMaster] Writing marriages into cache ...
+[16:21:29] [Thread-8/INFO]: [MarriageMaster] Marriages loaded into cache
+[16:21:29] [Thread-8/INFO]: [MarriageMaster] Loading homes ...
+[16:21:29] [Thread-8/INFO]: [MarriageMaster] Homes loaded
+[16:21:29] [Server thread/INFO]: [MarriageMaster] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[16:21:29] [Server thread/INFO]: [MarriageMaster] Loading item translations ...
+[16:21:29] [Server thread/INFO]: [MarriageMaster] Finished loading item translations for 828 items.
+[16:21:29] [Server thread/INFO]: [MarriageMaster] [32m Marriage Master has been enabled! [33m :) [0m
+[16:21:29] [Server thread/INFO]: [UltimateTimber] Enabling UltimateTimber v2.3.4
+[16:21:29] [Server thread/INFO]:  
+[16:21:29] [Server thread/INFO]: =============================
+[16:21:29] [Server thread/INFO]: UltimateTimber 2.3.4 by Songoda <3!
+[16:21:29] [Server thread/INFO]: Action: Enabling...
+[16:21:30] [Server thread/INFO]: [UltimateTimber] Loaded locale "en_US"
+[16:21:30] [Server thread/INFO]: [SongodaCore] [SongodaCore] Hooked UltimateTimber.
+[16:21:31] [Server thread/INFO]: =============================
+[16:21:31] [Server thread/INFO]:  
+[16:21:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.4
+[16:21:31] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_18_R2[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
+[16:21:32] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[16:21:32] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[16:21:32] [Server thread/INFO]: [PixelPrinter] Enabling PixelPrinter v1.0.46
+[16:21:32] [Server thread/ERROR]: Error occurred while enabling PixelPrinter v1.0.46 (Is it up to date?)
+java.lang.NoClassDefFoundError: Could not initialize class java.awt.Toolkit
+	at java.awt.Color.<clinit>(Color.java:277) ~[?:?]
+	at me.zombie_striker.pixelprinter.util.RGBBlockColor.add(RGBBlockColor.java:80) ~[PixelPrinter.jar:?]
+	at me.zombie_striker.pixelprinter.util.RGBBlockColor.activateBlocks(RGBBlockColor.java:128) ~[PixelPrinter.jar:?]
+	at me.zombie_striker.pixelprinter.PixelPrinter.onEnable(PixelPrinter.java:132) ~[PixelPrinter.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-372]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:664) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:316) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-372]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[16:21:32] [Server thread/INFO]: [PixelPrinter] Disabling PixelPrinter v1.0.46
+[16:21:32] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.1
+[16:21:32] [Server thread/INFO]: Looking for compatible plugins...
+[16:21:32] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
+[16:21:33] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:21:33] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:21:33] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[16:21:33] [Server thread/INFO]: [Essentials] Using locale en_US
+[16:21:33] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:21:33] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:21:33] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[16:21:33] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[16:21:33] [Server thread/INFO]: [isSlimeChunk] Enabling isSlimeChunk v1.0.1*
+[16:21:33] [Server thread/INFO]: [SimpleSit] Enabling SimpleSit v1.7*
+[16:21:33] [Server thread/INFO]: [DivineDrop] Enabling DivineDrop v2.9
+[16:21:33] [Server thread/ERROR]: Error occurred while enabling DivineDrop v2.9 (Is it up to date?)
+java.lang.NoClassDefFoundError: Could not initialize class java.awt.Color
+	at net.md_5.bungee.api.ChatColor.<clinit>(ChatColor.java:39) ~[bungeecord-chat-1.16-R0.4-deprecated+build.6.jar:?]
+	at com.demkom58.divinedrop.util.ColorUtil$1.<init>(ColorUtil.java:19) ~[DivineDrop-2.9.jar:?]
+	at com.demkom58.divinedrop.util.ColorUtil.<clinit>(ColorUtil.java:18) ~[DivineDrop-2.9.jar:?]
+	at com.demkom58.divinedrop.config.ConfigData.updateData(ConfigData.java:76) ~[DivineDrop-2.9.jar:?]
+	at com.demkom58.divinedrop.config.Config.load(Config.java:41) ~[DivineDrop-2.9.jar:?]
+	at com.demkom58.divinedrop.DivineDrop.loadConfig(DivineDrop.java:87) ~[DivineDrop-2.9.jar:?]
+	at com.demkom58.divinedrop.DivineDrop.reloadPlugin(DivineDrop.java:78) ~[DivineDrop-2.9.jar:?]
+	at com.demkom58.divinedrop.DivineDrop.onEnable(DivineDrop.java:68) ~[DivineDrop-2.9.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[paper-1.18.2.jar:git-Paper-372]
+	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:664) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:316) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-372]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-372]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[16:21:33] [Server thread/INFO]: [DivineDrop] Disabling DivineDrop v2.9
+[16:21:33] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.48
+[16:21:33] [Server thread/INFO]: §a**************************************§r
+[16:21:33] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r Loading...
+[16:21:33] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r plugins/SinglePlayerSleep/config.yml
+[16:21:33] [Server thread/INFO]: Checking for updates...
+[16:21:35] [Server thread/WARN]: *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+[16:21:35] [Server thread/WARN]: * There is a new version of SinglePlayerSleep available!
+[16:21:35] [Server thread/WARN]: * Your version§c1.13_2.13.48
+[16:21:35] [Server thread/WARN]: * Latest version§a1.13_2.13.49
+[16:21:35] [Server thread/WARN]: *
+[16:21:35] [Server thread/WARN]: * Please update to the newest version.
+[16:21:35] [Server thread/WARN]: *
+[16:21:35] [Server thread/WARN]: * Download: https://www.spigotmc.org/resources/singleplayersleep.68139/history
+[16:21:35] [Server thread/WARN]: * Donate: https://www.paypal.com/cgi-bin/webscr?hosted_button_id=VK89BP5Y2J23A&item_name=SinglePlayerSleep&cmd=_s-xclick
+[16:21:35] [Server thread/WARN]: *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+[16:21:35] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r plugins/SinglePlayerSleep/permissions.yml
+[16:21:35] [Server thread/INFO]: §a**************************************§r
+[16:21:35] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r is ENABLED
+[16:21:35] [Server thread/INFO]: §a**************************************§r
+[16:21:35] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r This server is running Paper version git-Paper-372 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
+[16:21:35] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r vardebug=false debug=false in plugins/SinglePlayerSleep/config.yml
+[16:21:35] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r jarfilename=/home/tinn2/minecraft-server/MInecraft_server_linux/minecraft-server/plugins/SinglePlayerSleep-1.13_2.13.48.jar
+[16:21:35] [Server thread/INFO]: Running delayed init tasks
+[16:21:35] [Server thread/INFO]: Done (28.037s)! For help, type "help"
+[16:21:35] [Server thread/INFO]: Timings Reset
+[16:21:35] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] §6Fetching version information...
+[16:21:36] [Craft Scheduler Thread - 3 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[16:22:15] [Server thread/INFO]: Stopping server
+[16:22:15] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.13_2.13.48
+[16:22:15] [Server thread/INFO]: §a**************************************§r
+[16:22:15] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r is DISABLED
+[16:22:15] [Server thread/INFO]: §a**************************************§r
+[16:22:15] [Server thread/INFO]: [SimpleSit] Disabling SimpleSit v1.7
+[16:22:15] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.11
+[16:22:15] [Server thread/INFO]: [isSlimeChunk] Disabling isSlimeChunk v1.0.1
+[16:22:15] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.7
+[16:22:15] [Server thread/INFO]: [HealthBar] Disabling HealthBar v1.8.1
+[16:22:15] [Server thread/INFO]: [HealthBar] Configuration file saved.
+[16:22:15] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.4
+[16:22:15] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[16:22:15] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:22:15] [Server thread/INFO]: [UltimateTimber] Disabling UltimateTimber v2.3.4
+[16:22:15] [Server thread/INFO]:  
+[16:22:15] [Server thread/INFO]: =============================
+[16:22:15] [Server thread/INFO]: UltimateTimber 2.3.4 by Songoda <3!
+[16:22:15] [Server thread/INFO]: Action: Disabling...
+[16:22:15] [Server thread/INFO]: =============================
+[16:22:15] [Server thread/INFO]:  
+[16:22:15] [Server thread/INFO]: [MarriageMaster] Disabling MarriageMaster v2.6.8-Release
+[16:22:15] [Server thread/INFO]: [MarriageMaster] Cleaning database cache.
+[16:22:15] [Server thread/INFO]: [MarriageMaster] Database cache cleaned.
+[16:22:15] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Shutdown initiated...
+[16:22:15] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Shutdown completed.
+[16:22:17] [Server thread/INFO]: [MarriageMaster] [31m Marriage Master has been disabled. [33m :( [0m
+[16:22:17] [Server thread/INFO]: Saving players
+[16:22:17] [Server thread/INFO]: Saving worlds
+[16:22:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:22:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:22:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:22:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:22:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:22:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:22:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:22:21] [Server thread/INFO]: Flushing Chunk IO
+[16:22:21] [Server thread/INFO]: Closing Thread Pool
+[16:22:21] [Server thread/INFO]: Closing Server

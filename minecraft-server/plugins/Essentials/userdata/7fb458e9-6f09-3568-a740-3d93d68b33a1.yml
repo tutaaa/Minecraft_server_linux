@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1674460533992
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674462110889
+  login: 1674459593972
+money: '0'
+last-account-name: SkullAtoR1234
+lastlocation:
+  world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+  world-name: world
+  x: -75.3238870557791
+  y: 63.0
+  z: 410.6266827593934
+  yaw: -66.015625
+  pitch: 19.499893188476562
+logoutlocation:
+  world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+  world-name: world
+  x: 520.6999999880791
+  y: 80.0
+  z: -687.0928903633128
+  yaw: 16.58544921875
+  pitch: 5.550283908843994

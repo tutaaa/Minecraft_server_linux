@@ -1,0 +1,1 @@
+java -Xms4M -Xmx10G -jar paper-1.18.2-372.jar nogui

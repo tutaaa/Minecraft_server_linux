@@ -1,0 +1,48 @@
+langversion: 2.13.48
+bloodmoon: Kanlı Ay varken uyuyamazsın.
+boolean: Argüman boolean tipinde olmalı.
+cancel: Uyandır
+canceledsleep: <player> uyuyanı uyandırdı.
+cancelhelp: Uyuyanı uyandırır, günü değiştirmez.
+cancelunrestricted: Uyandırma devredışı.
+checkset: Otomatik güncelleme kontrolü ayarlandı - 
+clickcancel: Uyandırmak için tıkla!
+curvers: Sürüm güncellendi!
+dayskipblackbed: Gün boyu uyumak için yatağın siyah olması gerek.
+dayskipcancel: Uyandır
+dayskipcanceled: <player>, gün boyu uyumayı iptal etti.
+dayskipclickcancel: Gün boyu uyumayı iptal etmek için tıkla!
+dayskipmsg: <WHITE><player> gün boyu uyumak istiyor...
+dayskipmsgcommand: <WHITE><player> gün boyu uyumak istiyor...
+dayskipsettime: Zaman gece olarak ayarlandı.
+debugtrue: Hata ayıklama boolean olarak ayarlandı.
+issleep: <player> uyuyor!
+mustbeday: Kullanmak için gündüz olmalı.
+mustbenight: Kullanmak için gece olmalı.
+newvers: 
+  message: <MyPlugin>'in yeni bir sürümü mevcut!
+  old_vers:   Senin versiyonun
+  new_vers: En son sürüm
+  please_update: Lütfen en yeni sürüme güncelleyin.
+  download: İndirmek
+  donate: Bağış
+nightorstorm: Uyumak için fırtına yada gece olmalı.
+nocancel: Uyuyanı uyandıramazsın yada uyandırılacak kimse yok.
+nocheck: Güncellemeler kontrol edilmeyecek!
+noperm: Bunu kullanmak için yetkin yok.
+notop: Operatör değilsin, yada auto-update-check, config.yml içinde false olarak ayarlanmış.
+reloaded: Plugin yeniden yüklendi.
+respawnpointmsg: Yeniden doğma noktası ayarlandı.
+setdownfall: Yağmur dindiriliyor.
+setthunder: Fırtına dindiriliyor.
+settime: Zaman gündüz olarak ayarlandı.
+sleepcommand: <player> uyuyor. <komut>
+sleephelp: Sunucu yöneticisinin onayına tabi.
+sleeplimit: Bunu <length> saniye boyunca yapamazsın.
+spscheck: auto-update-check true yada false olarak ayarla.
+spshelp: SinglePlayerSleep yardım sayfasını gösterir.
+spsreload: Plugini yeniden yükler.
+spsupdate: Güncellemeleri kontrol eder.
+toggledebug: Hata ayıklamayı geçici olarak değiştirir.
+touse: Kullanmak için yatakta uyuyun.
+yescheck: Güncellemeler kontrol edilecek!

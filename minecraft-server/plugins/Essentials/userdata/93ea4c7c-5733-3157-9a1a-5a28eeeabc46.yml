@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1674464364195
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674464367338
+  login: 1674462453911
+money: '0'
+last-account-name: TinnZx
+lastlocation:
+  world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+  world-name: world
+  x: 106.08515142859014
+  y: 88.0
+  z: 338.49907515798964
+  yaw: -123.00807189941406
+  pitch: 45.74966812133789
+logoutlocation:
+  world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+  world-name: world
+  x: 76.48715275939956
+  y: 63.9375
+  z: 353.6403422460412
+  yaw: 19.344640731811523
+  pitch: 6.599650859832764
+homes:
+  home:
+    world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+    world-name: world
+    x: 75.86553205800806
+    y: 65.0
+    z: 347.58552742230563
+    yaw: -9.455322265625
+    pitch: 23.399667739868164

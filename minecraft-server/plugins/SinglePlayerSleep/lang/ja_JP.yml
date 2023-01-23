@@ -1,0 +1,49 @@
+#Language-File created by:		mtmtyu
+langversion: 2.13.48
+bloodmoon: bloodmoonの間は眠れません。
+boolean: 引数はブールでなければなりません。 使用法
+cancel: キャンセル
+canceledsleep: <player> が寝るのをキャンセルしました。
+cancelhelp: スリープをキャンセルします。 日は変わりません。
+cancelunrestricted: キャンセルは無効になっています。
+checkset: auto-update-checkが に設定されています
+clickcancel: クリックしてスリープをキャンセル
+curvers: バージョンは最新です！
+dayskipblackbed: DaySkipperを使用するには、ベッドを黒にする必要があります。
+dayskipcancel: キャンセル
+dayskipcanceled: <player> が日をスキップするのをキャンセルしました。
+dayskipclickcancel: 日をスキップするのをキャンセルするにはクリックしてください
+dayskipmsg: <WHITE><player> <WHITE>wants to <BLUE>sleep <WHITE>the <YELLOW>day <WHITE>away...
+dayskipmsgcommand: <WHITE><player> は一日寝たい...<command>
+dayskipsettime: 夜に時間を設定します。
+debugtrue: デバッグはブール値に設定されています。
+issleep: <player> が寝ています...zzz
+mustbeday: 使用する日でなければなりません。
+mustbenight: 使用するのは夜でなければなりません。
+newvers: 
+  message: <MyPlugin>の新しいバージョンが利用可能です！
+  old_vers:   あなたのバージョン
+  new_vers: 最新バージョン
+  please_update: 最新バージョンに更新してください。
+  download: ダウンロード
+  donate: 寄付
+nightorstorm: 寝れるのは夜か嵐です。
+nocancel: このスリープをキャンセルできないか、キャンセルするものがありません。
+nocheck: アップデートをチェックしません！
+noperm: 使用する権限がありません
+notop: OPではないか、config.ymlでauto-update-checkがfalseに設定されています
+reloaded: SinglePlayerSleepがリロードされました。
+respawnpointmsg: リスポーンの場所を設定しました。
+setdownfall: 落ち込みを解消する
+setthunder: 雷雨をクリアする
+settime: 毎日の時間を設定する
+sleepcommand: <player> が寝ています。 <command>
+sleephelp: サーバー管理者の承認が必要です
+sleeplimit: あなたはそれを <length> 秒行うことができません。
+spscheck: auto-update-checkをtrueまたはfalseに設定します。
+spshelp: SinglePlayerSleepヘルプを表示します。
+spsreload: 設定ファイルをリロードします。
+spsupdate: 更新を確認します。
+toggledebug: 一時的にデバッグに切り替えます。
+touse: 使用するためにベッドで寝る。
+yescheck: アップデートをチェックします！
