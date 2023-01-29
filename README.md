@@ -11,5 +11,5 @@
  ```
 ### Lanch command
 ```
-sudo java -jar 
+sudo java -Xms1G -Xmx3G -jar paper-1.18.2-372.jar nogui
 ```
