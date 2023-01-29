@@ -4,6 +4,7 @@
  - server : paper server
  - version : 1.18.2
  - edition : java edition
+ - author : tutaaa
  
 ### Port fowarding (Asia pacific)
  ```
