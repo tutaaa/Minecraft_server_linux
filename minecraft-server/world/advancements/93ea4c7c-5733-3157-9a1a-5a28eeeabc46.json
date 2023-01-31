@@ -735,6 +735,7 @@
     "criteria": {
       "minecraft:pillager": "2022-12-23 21:24:28 +0700",
       "minecraft:skeleton": "2022-12-23 20:36:10 +0700",
+      "minecraft:ravager": "2023-01-29 23:37:11 +0700",
       "minecraft:ghast": "2566-01-09 18:38:38 +0700",
       "minecraft:vindicator": "2566-01-08 01:25:48 +0700",
       "minecraft:magma_cube": "2566-01-09 02:05:05 +0700",
@@ -916,6 +917,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2023-01-31 00:41:09 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_bed": {
     "criteria": {
       "has_yellow_wool": "2565-12-29 02:07:20 +0700"
@@ -991,6 +998,12 @@
   "minecraft:recipes/decorations/light_gray_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2022-12-23 01:36:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-01-31 01:59:57 +0700"
     },
     "done": true
   },
@@ -1798,6 +1811,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2023-01-31 01:59:53 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
       "has_minecart": "2565-12-31 02:52:56 +0700"
@@ -2090,6 +2109,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2023-01-31 03:51:14 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2022-12-23 21:45:16 +0700"
@@ -2294,6 +2319,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2023-01-31 01:59:53 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tiles": {
     "criteria": {
       "has_deepslate_bricks": "2566-01-08 02:53:55 +0700"
@@ -2355,6 +2386,12 @@
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2565-12-26 18:22:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2023-01-31 00:41:09 +0700"
     },
     "done": true
   },
@@ -2899,6 +2936,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2023-01-31 03:52:03 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2565-12-26 16:07:15 +0700"
@@ -3076,6 +3119,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2022-12-23 01:36:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-01-31 01:59:57 +0700"
     },
     "done": true
   },
@@ -3334,6 +3383,12 @@
   "minecraft:recipes/decorations/purple_candle": {
     "criteria": {
       "has_purple_dye": "2566-01-07 23:39:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2023-01-31 03:51:15 +0700"
     },
     "done": true
   },

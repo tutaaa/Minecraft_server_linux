@@ -527,6 +527,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-31 00:11:13 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2022-12-24 00:32:19 +0700"
@@ -677,6 +683,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-31 00:11:13 +0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2022-12-23 21:10:37 +0700",
@@ -687,6 +699,7 @@
       "minecraft:magma_cube": "2566-01-08 22:49:13 +0700",
       "minecraft:spider": "2022-12-23 03:11:52 +0700",
       "minecraft:creeper": "2022-12-23 01:14:27 +0700",
+      "minecraft:evoker": "2023-01-29 23:37:27 +0700",
       "minecraft:zombified_piglin": "2566-01-08 22:34:09 +0700",
       "minecraft:witch": "2566-01-08 01:28:26 +0700",
       "minecraft:cave_spider": "2022-12-23 03:25:10 +0700",
@@ -1165,6 +1178,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-31 00:11:13 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2022-12-23 02:40:21 +0700"
@@ -1270,6 +1289,12 @@
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2022-12-23 00:50:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-31 00:11:13 +0700"
     },
     "done": true
   },
@@ -1463,6 +1488,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-31 00:11:13 +0700"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2022-12-23 01:35:05 +0700"
@@ -1589,6 +1620,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2023-01-31 00:35:39 +0700"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2566-01-08 22:32:18 +0700",
@@ -1708,6 +1745,12 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2566-01-08 23:20:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-31 00:11:13 +0700"
     },
     "done": true
   },
@@ -1954,6 +1997,12 @@
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2022-12-23 01:12:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2023-01-31 01:29:30 +0700"
     },
     "done": true
   },
@@ -2244,6 +2293,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2022-12-23 01:29:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2023-01-31 01:29:30 +0700"
     },
     "done": true
   },
@@ -2691,6 +2746,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2023-01-31 00:35:39 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2022-12-23 01:35:17 +0700"
@@ -3024,6 +3085,12 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2022-12-23 00:50:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-31 00:11:13 +0700"
     },
     "done": true
   },
