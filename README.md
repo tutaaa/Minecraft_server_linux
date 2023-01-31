@@ -24,3 +24,7 @@ sudo apt install openjdk-17-jre-headless
 ```
 sudo snap install ngrok
 ```
+### add ngrok authtoken 
+```
+ngrok config add-authtoken XXXXXXXXXXXXXXXXXXXXXXXXX
+```
