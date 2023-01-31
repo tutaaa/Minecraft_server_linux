@@ -8,6 +8,10 @@
 
 ## Installiation
 
+### clone this server to your computer
+```
+git clone https://github.com/tutaaa/Minecraft_server_linux.git
+```
 ### install java version 18
 ```
 sudo apt install openjdk-17-jre-headless 
