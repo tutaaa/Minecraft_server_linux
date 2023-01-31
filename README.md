@@ -14,3 +14,13 @@
 ```
 sudo java -Xms1G -Xmx3G -jar paper-1.18.2-372.jar nogui
 ```
+## Installiation
+
+### install java version 18
+```
+sudo apt install openjdk-17-jre-headless 
+```
+### and then install ngrok for port forwarding
+```
+sudo snap install ngrok
+```
