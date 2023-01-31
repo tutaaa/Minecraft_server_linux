@@ -4,6 +4,7 @@
  - server : paper server
  - version : 1.18.2
  - edition : java edition
+ - author : tutaaa
  
 ### Port fowarding (Asia pacific)
  ```
@@ -11,5 +12,5 @@
  ```
 ### Lanch command
 ```
-sudo java -jar 
+sudo java -Xms1G -Xmx3G -jar paper-1.18.2-372.jar nogui
 ```
