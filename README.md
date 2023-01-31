@@ -5,15 +5,7 @@
  - version : 1.18.2
  - edition : java edition
  - author : tutaaa
- 
-### Port fowarding (Asia pacific)
- ```
-  ngrok tcp 25565 --region ap
- ```
-### Lanch command
-```
-sudo java -Xms1G -Xmx3G -jar paper-1.18.2-372.jar nogui
-```
+
 ## Installiation
 
 ### install java version 18
@@ -27,4 +19,14 @@ sudo snap install ngrok
 ### add ngrok authtoken 
 ```
 ngrok config add-authtoken XXXXXXXXXXXXXXXXXXXXXXXXX
+```
+## run this server
+ 
+### Port fowarding (Asia pacific)
+ ```
+  ngrok tcp 25565 --region ap
+ ```
+### Lanch command
+```
+sudo java -Xms1G -Xmx3G -jar paper-1.18.2-372.jar nogui
 ```
