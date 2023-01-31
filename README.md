@@ -1,4 +1,4 @@
-# MInecraft_server_linux
+# Minecraft_server_linux
 ## this is minecraft server which can run in linux OS and Windows OS 
 ### Server description
  - server : paper server
